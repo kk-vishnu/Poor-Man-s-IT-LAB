@@ -39,5 +39,10 @@ namespace w6q1
             }
         }
 
+        protected void Button1_Click(object sender, EventArgs e)
+        {
+            if(Page.IsValid)
+                Label1.Text = "SUCCESS";
+        }
     }
 }
